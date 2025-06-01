@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /*
+===================
+Colors
+===================
+*/
+
+  /* Neutral */
+
+  --text-neutral-900: rgb(3, 3, 3);
+  --text-neutral-400: rgb(106, 108, 98);
+  --text-neutral-200: rgb(255, 247, 240);
+  --text-neutral-0: rgb(255, 255, 255);
+
+  /* Background Colors */
+
+  --color-light-red-500: rgb(255, 107, 91);
+  --color-galactic-blue-500: rgb(117, 92, 222);
+  --color-summer-yellow-500: rgb(246, 165, 96);
+  --color-pink-500: rgb(243, 158, 158);
+  --color-cyan-500: rgb(97, 196, 183);
+  --color-dark-purple-500: rgb(85, 32, 73);
+}
