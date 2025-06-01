@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+@base {
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Improves loading performance */
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-[69.375rem] mx-auto my-0;
+  }
+}
+
 @theme {
   /*
 ===================
