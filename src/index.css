@@ -1,21 +1,24 @@
 @import "tailwindcss";
 
-@base {
+@layer base {
   html {
     font-size: 100%;
     line-height: 1.5;
+    /* background-color: rgb(0, 0, 0); */
   }
   body {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-display: swap; /* Improves loading performance */
+    background: rgb(255, 247, 240);
+    /* background-color: var(--color-light-red-500); */
   }
 }
 
 @layer utilities {
   .container {
-    @apply max-w-[69.375rem] mx-auto my-0;
+    @apply max-w-[69.375rem] mx-auto my-0 bg-light-red-500;
   }
 }
 
