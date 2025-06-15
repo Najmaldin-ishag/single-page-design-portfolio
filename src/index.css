@@ -44,4 +44,10 @@ Colors
   --color-pink-500: rgb(243, 158, 158);
   --color-cyan-500: rgb(97, 196, 183);
   --color-dark-purple-500: rgb(85, 32, 73);
+
+  /* Breakpoint */
+  --breakpoint-sm: 670px;
+  /* --breakpoint-xsm: 400px; */
+  --breakpoint-md: initial;
+  --breakpoint-md: 1100px;
 }
