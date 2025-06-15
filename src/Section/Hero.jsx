@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="grid grid-cols-6 grid-rows-2 gap-6">
         <div className="bg-galactic-blue-500 p-6 rounded-sm w-[22.125rem] col-span-2 row-span-2 flex flex-col justify-between">
           <img
-            className="self-end w-[8rem] h-[12rem]"
+            className="self-end w-[8rem] h-auto shrink-0 mb-8"
             src="./assets/pattern-graphic-design.svg"
             alt="img"
           />
@@ -63,21 +63,21 @@ const Hero = () => {
             Photography
           </span>
         </div>
-        <div className="bg-light-red-500 col-span-2 rounded-sm px-[2.5rem] py-2 flex justify-self-stretch  justify-between items-start gap-[4rem]">
+        <div className="bg-light-red-500 col-span-2 rounded-sm px-[1rem] py-[.8rem] flex justify-self-stretch  justify-between items-start ">
           <img
             className="justify-self-end w-[8rem] mt-2 h-[4rem]"
             src="./assets/pattern-illustrations.svg"
             alt="img"
           />
-          <span className="text-white text-[1.5rem] self-end -ml-7 -order-2 font-[700]  leading-[130%]">
+          <span className="text-white text-[1.5rem] self-end  -order-2 font-[700]  leading-[130%]">
             Illustrations
           </span>
         </div>
-        <div className="bg-dark-purple-500 rounded-sm col-span-2 row-span-1 flex flex-col justify-between p-2">
+        <div className="bg-dark-purple-500 rounded-sm col-span-2 row-span-1 flex flex-col justify-between px-[1rem] py-[.8rem]">
           <img
             src="./assets/pattern-motion-graphics.svg"
             alt="img"
-            className="mt-2 w-[10rem] h-[4rem] self-end mr-2"
+            className="mt-2 w-[8rem] h-[4rem] self-end mr-2"
           />
           <span className="text-white text-[1.5rem] order-2   font-[700]  leading-[130%]">
             Photography
