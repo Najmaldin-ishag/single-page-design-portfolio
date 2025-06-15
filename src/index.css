@@ -18,7 +18,7 @@
 
 @layer utilities {
   .container {
-    @apply max-w-[69.375rem] mx-auto my-0 bg-light-red-500;
+    @apply max-w-[69.375rem] mx-auto my-0;
   }
 }
 
