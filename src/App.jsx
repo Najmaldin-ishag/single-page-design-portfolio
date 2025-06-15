@@ -1,5 +1,7 @@
+import Hero from "./Section/Hero";
+
 const App = () => {
-  return <div className="underline">Hello world</div>;
+  return <Hero />;
 };
 
 export default App;
