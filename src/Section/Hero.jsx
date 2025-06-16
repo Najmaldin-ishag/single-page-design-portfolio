@@ -18,10 +18,10 @@ const Hero = () => {
         <br />
         your one-stop shop for your design needs.
       </p>
-      <div className="grid grid-cols-6 grid-rows-2 gap-6">
-        <div className="bg-galactic-blue-500 p-6 rounded-sm w-[22.125rem] col-span-2 row-span-2 flex flex-col justify-between">
+      <div className="grid grid-cols-6 grid-rows-2 gap-6 max-sm:grid-cols-1  ">
+        <div className="bg-galactic-blue-500 p-6 rounded-sm max-w-[22.125rem] col-span-2 row-span-2 -span-1 flex flex-col justify-between">
           <img
-            className="self-end w-[8rem] h-auto shrink-0 mb-8"
+            className="self-end max-w-[8rem] h-auto shrink-0 mb-8"
             src="./assets/pattern-graphic-design.svg"
             alt="img"
           />
@@ -29,7 +29,7 @@ const Hero = () => {
             Graphic Design
           </span>
         </div>
-        <div className="bg-summer-yellow-500 flex rounded-sm flex-col justify-between px-4">
+        <div className="bg-summer-yellow-500 flex rounded-sm flex-col justify-between px-4 max-sm:justify-self-auto max-sm:px-[2.25rem]">
           <img
             className="self-end mt-2 size-[4rem]"
             src="./assets/pattern-ui-ux.svg"
@@ -39,7 +39,7 @@ const Hero = () => {
             UI UX
           </span>
         </div>
-        <div className="bg-pink-500  rounded-sm flex flex-col justify-between px-4">
+        <div className="bg-pink-500  rounded-sm flex flex-col justify-between px-4 max-sm:h-[11.375rem] max-sm:px-[2.25rem]">
           <img
             className="self-end mt-2 size-[4rem]"
             src="./assets/pattern-apps.svg"
