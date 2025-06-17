@@ -5,7 +5,8 @@ const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const imagesPerView = 3;
-  const maxIndex = imgGallery.length - imagesPerView;
+  // Prevent negative indices if the gallery has fewer items than the viewport
+  const maxIndex = Math.max(imgGallery.length - imagesPerView, 0);
 
   const showNextImg = () => {
     if (isTransitioning) return;
