@@ -20,7 +20,9 @@ const Footer = () => {
         />
       </div>
       <nav className="flex justify-between mt-[3.5rem] mb-[1rem]">
-        <img src="./assets/logo.svg" alt="logo" />
+        <a href="/">
+          <img src="./assets/logo.svg" alt="logo" />
+        </a>
         <Button
           className="bg-neutral-900 px-15 cursor-pointer rounded-full py-2 text-[1rem] font-[700] leading-[150%] text-white"
           title="Free Consultation"
