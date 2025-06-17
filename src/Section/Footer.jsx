@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
         </div>
         <Button
-          className="bg-light-red-500 justify-self-center px-15 cursor-pointer rounded-full py-[1.5rem] text-[1rem] font-[700] leading-[150%] text-white"
+          className="bg-light-red-500 justify-self-end px-[4rem] cursor-pointer rounded-full py-[1.3rem] text-[1rem] font-[700] leading-[150%] text-white"
           title="Free Consultation"
         />
       </div>
