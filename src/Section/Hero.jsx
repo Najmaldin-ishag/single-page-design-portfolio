@@ -3,12 +3,12 @@ import Button from "../Components/button";
 const Hero = () => {
   return (
     <header className="container p-5">
-      <nav className="flex justify-between">
+      <nav className="flex justify-between ">
         <a href="/">
           <img src="./assets/logo.svg" alt="logo" />
         </a>
         <Button
-          className="bg-neutral-900 px-15 cursor-pointer rounded-full py-2 text-[1rem] font-[700] leading-[150%] text-white"
+          className="bg-neutral-900 px-15 max-sm:px-5 max-sm:py-1 cursor-pointer rounded-full py-2 text-[1rem] font-[700] leading-[150%] text-white"
           title="Free Consultation"
         />
       </nav>
