@@ -48,6 +48,6 @@ Colors
   /* Breakpoint */
 
   --breakpoint-sm: 570px;
-  --breakpoint-md: initial;
-  --breakpoint-md: 1100px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1100px;
 }
