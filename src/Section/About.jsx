@@ -11,12 +11,12 @@ const About = () => {
         />
         <div>
           <h2 className="text-[2.5rem] font-[700]  leading-[130%] mb-[2rem] max-sm:text-center">
-            I’m Amy, and I’d love to <br /> work on your next project
+            I'm Amy, and I'd love to <br /> work on your next project
           </h2>
           <p className="text-[1.125rem] font-[500] leading-[150%] mb-[2rem] max-sm:text-center">
             I love working with others to create beautiful design solutions.
-            I’ve designed everything from brand illustrations to complete mobile
-            apps. I’m also handy with a camera!
+            I've designed everything from brand illustrations to complete mobile
+            apps. I'm also handy with a camera!
           </p>
           <Button
             className="bg-light-red-500 flex cursor-pointer justify-center max-sm:mx-auto items-center px-[3.75rem] rounded-full py-[1rem] text-white"
