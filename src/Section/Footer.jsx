@@ -9,7 +9,7 @@ const Footer = () => {
             Book a call with me
           </h2>
           <p className="text-[1.125rem] text-white mt-[1.5rem] font-[400] leading-[150%] max-sm:text-center max-sm:mb-[1rem]">
-            I’d love to have a chat to see how I can help you. The best first
+            I'd love to have a chat to see how I can help you. The best first
             step is for us to discuss your project during a free consultation.
             Then we can move forward from there.
           </p>
