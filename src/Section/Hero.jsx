@@ -16,7 +16,7 @@ const Hero = () => {
         Design solutions made easy
       </h1>
       <p className="text-neutral-400 text-[1.125rem] mb-[5rem] font-normal text-center mt-8 line-clamp-3">
-        With over ten years of experience in various design disciplines, I’m
+        With over ten years of experience in various design disciplines, I'm
         <br />
         your one-stop shop for your design needs.
       </p>
